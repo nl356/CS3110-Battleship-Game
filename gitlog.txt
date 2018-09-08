@@ -1,0 +1,1818 @@
+commit 1c99e7b7e87afd88a389ecf09280e28bfa52c4f3
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 16:45:34 2018 -0400
+
+    finished
+
+ battleship.zip | Bin 14572 -> 14812 bytes
+ engine.ml      |   2 +-
+ main.ml        |  29 ++++++++++++++++++++++-------
+ player.ml      |  12 ++++++------
+ 4 files changed, 29 insertions(+), 14 deletions(-)
+
+commit ea29733e6ee086d559afab127c538bd2be38c7e9
+Merge: c9b9f16 ac4f29c
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 16:25:49 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit c9b9f168f11577784fe44df6102fbfadfdc41e69
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 16:25:42 2018 -0400
+
+    done
+
+ battleship.zip | Bin 9306 -> 14572 bytes
+ command.ml     |   2 ++
+ command.mli    |   1 +
+ engine.ml      |  25 +++++++++++++++----------
+ main.ml        |   2 +-
+ player.ml      |  10 +++++++---
+ state.ml       |   2 ++
+ 7 files changed, 28 insertions(+), 14 deletions(-)
+
+commit ac4f29c3b1b30bdb31857376cf58533c41b83341
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 15 16:00:11 2018 -0400
+
+    cleaned up code and added comments
+
+ command.ml  |  3 ---
+ command.mli | 12 +++++-------
+ gui.ml      | 11 +++++++----
+ player.ml   | 10 ++++++++--
+ player.mli  |  9 +++++++++
+ state.ml    | 51 +++++++++++++++------------------------------------
+ state.mli   | 21 ++++++++++++++++-----
+ 7 files changed, 60 insertions(+), 57 deletions(-)
+
+commit 26211d0416efce44b736e617693eb7b362fab44a
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 15:20:07 2018 -0400
+
+    more ui
+
+ engine.ml  |  2 +-
+ player.ml  | 10 +++++-----
+ player.mli |  2 +-
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+commit e594ec23bf3f0c7174d121f36c46f644ad3aac68
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 15:06:05 2018 -0400
+
+    improved UI
+
+ command.ml  |  9 ++-------
+ command.mli |  2 --
+ engine.ml   |  6 +++---
+ player.ml   | 16 ++++++++++------
+ state.ml    | 48 ++++++++++++++++++++++++++++--------------------
+ state.mli   |  4 ++--
+ 6 files changed, 45 insertions(+), 40 deletions(-)
+
+commit f96151e0947ff1b317bf217f47e73e09e5568cbd
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 13:18:29 2018 -0400
+
+    bugfixeso
+
+ player.ml | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit e3a8fb131321d392aa97609b97c548dc8214c7b5
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 15 12:53:40 2018 -0400
+
+    small fix
+
+ player.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 013428839715cd1078c36dc4886e0cb9092833e2
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 15 12:27:11 2018 -0400
+
+    small bugfixes
+
+ engine.ml |  3 +++
+ player.ml | 12 ++++++------
+ state.ml  | 14 +++++++-------
+ 3 files changed, 16 insertions(+), 13 deletions(-)
+
+commit 844448771aad15e728bc1683360870ccff5c6314
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 15 12:04:52 2018 -0400
+
+    bugfixes
+
+ command.ml | 39 +++++++++++++--------------------------
+ player.ml  |  8 ++++----
+ 2 files changed, 17 insertions(+), 30 deletions(-)
+
+commit 76f88344b76bc6ef22b85c55d452c95bf8078753
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 04:14:49 2018 -0400
+
+    fixed printing
+
+ state.ml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit b4624eb77bed2863ec235b9952bdef9771ff05ca
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 03:57:45 2018 -0400
+
+    working repl with some bugs
+
+ engine.ml |  4 ++--
+ player.ml |  2 +-
+ state.ml  | 25 ++++++++++++++++---------
+ state.mli |  1 +
+ 4 files changed, 20 insertions(+), 12 deletions(-)
+
+commit a68e4bced67d7ffb761346ac590037cb647719e5
+Merge: d71de71 8e872de
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 02:59:57 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit d71de71fc414ef782487d055c73a9ad7749e1d33
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 02:59:45 2018 -0400
+
+    more debugging
+
+ engine.ml |  7 ++++---
+ player.ml | 13 ++++++-------
+ state.ml  | 39 +++++++++++++++++++++++++++------------
+ state.mli |  2 +-
+ 4 files changed, 38 insertions(+), 23 deletions(-)
+
+commit 8e872de31f83ef6ccf939c5b36cebd977c53f13c
+Merge: a0f8d89 abf66d1
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 15 02:07:50 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit a0f8d8964a5870115d1ddc6bbf9cbd4b8ef72bcc
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 15 02:07:20 2018 -0400
+
+    comment
+
+ state.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit abf66d10602fd152252a02d02d2da3760ddafea5
+Merge: 66ebc6e d4b79ed
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 00:42:28 2018 -0400
+
+    debugged state
+
+commit 66ebc6e18c595bd6b03d189947a489fd17289e87
+Merge: 5b5db48 71d1558
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 15 00:41:40 2018 -0400
+
+    ebugged state
+
+commit d4b79ed615dec8ef08e4346f769fa657a5622aee
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 23:18:27 2018 -0400
+
+    updated desc
+
+ state.ml | 35 +++++++++++++++++++++++++++--------
+ 1 file changed, 27 insertions(+), 8 deletions(-)
+
+commit 5b5db4893fb0045d800eac4295a70b0b516b711d
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 23:05:09 2018 -0400
+
+    debug
+
+ engine.ml | 13 +++++++------
+ main.ml   |  6 +++---
+ player.ml | 37 ++++++++++++++++++-------------------
+ 3 files changed, 28 insertions(+), 28 deletions(-)
+
+commit 71d1558abb96d9f0c8e3b13fd0c11d30d7a83942
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 22:51:42 2018 -0400
+
+    working on description
+
+ engine.ml |  1 +
+ player.ml |  9 ++++++---
+ state.ml  | 49 ++++++++++++++++++++++++++++++++++++++++++++++++-
+ state.mli |  2 +-
+ 4 files changed, 56 insertions(+), 5 deletions(-)
+
+commit e6c7a83ab23e539f52e43c8c93034aafe5622038
+Merge: 6b14b32 5245209
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 22:03:45 2018 -0400
+
+    fixed command
+
+commit 6b14b3296186d6c7d50e1bd670e5ecb43d4373b6
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 22:02:20 2018 -0400
+
+    fixed command
+
+ command.ml    | 20 ++++++++++++--------
+ main.ml       | 10 +++++-----
+ player.ml     | 11 +++++------
+ state_test.ml |  6 ------
+ 4 files changed, 22 insertions(+), 25 deletions(-)
+
+commit 5245209d808b8feaab1d94658246e43e6ab9fa31
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 22:00:44 2018 -0400
+
+    things compile yey
+
+ Makefile      | 2 +-
+ _tags         | 2 +-
+ engine.ml     | 4 ----
+ player.ml     | 1 +
+ state_test.ml | 8 ++++----
+ 5 files changed, 7 insertions(+), 10 deletions(-)
+
+commit 47b63861cc05bf827078e1027cc00048c36f2f74
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 21:32:56 2018 -0400
+
+    repl
+
+commit e93bea152c7bb669905a78bf01ced569325a0740
+Merge: 9f31a11 f855cf5
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 21:32:21 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 9f31a11a9d1751aaaf5f3039c754085d0d1ac0cf
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 21:32:10 2018 -0400
+
+    REPL RUNNING
+
+ gui.ml    |  4 ++--
+ gui.mli   |  6 +++---
+ main.ml   | 14 +++++++++-----
+ main.mli  | 10 +++++-----
+ state.ml  |  2 +-
+ state.mli |  2 +-
+ 6 files changed, 21 insertions(+), 17 deletions(-)
+
+commit f855cf52ca1e6c4a2747c645a2b225221a68517a
+Merge: e009fe4 4dc1b24
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 21:29:06 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit e009fe45bb4d8966ef3c62805620e5f336a2f32b
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 21:29:01 2018 -0400
+
+    fixed bug in test
+
+ state_test.ml | 21 +++++++--------------
+ 1 file changed, 7 insertions(+), 14 deletions(-)
+
+commit 4dc1b246f6be1d2d0ef41e9c89955502a3f86cd9
+Merge: a0d7ff9 028171b
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 21:24:15 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit a0d7ff982bc5f3bf0af8347178636d9b631685c1
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 21:23:36 2018 -0400
+
+    debugging
+
+ .Makefile.swp | Bin 12288 -> 0 bytes
+ command.mli   |   2 +-
+ engine.ml     |  36 ++++++++++++++++++------------------
+ gui.ml        |   3 ++-
+ gui.mli       |   4 ++--
+ main.ml       |   2 +-
+ player.ml     |  38 ++++++++++++++++++++------------------
+ state.ml      |   1 -
+ state.mli     |   7 ++++++-
+ 9 files changed, 50 insertions(+), 43 deletions(-)
+
+commit 028171b805e544c76af95de3f9030e166d243393
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 21:19:42 2018 -0400
+
+    finished test cases
+
+ .Makefile.swp | Bin 12288 -> 0 bytes
+ Makefile      |   4 ++--
+ command.mli   |   2 +-
+ player.ml     |  21 ++++++++++----------
+ state.ml      |   8 ++------
+ state_test.ml |  63 ++++++++++++++++++++++++++++++++++++++++++++--------------
+ 6 files changed, 64 insertions(+), 34 deletions(-)
+
+commit f6f2949f3242caf2fece7d94164c8dfc88a9dc73
+Merge: cb6d4a5 94d23a4
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 20:23:46 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit cb6d4a514b2a81489f71ba6e92316a4def159370
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 20:23:21 2018 -0400
+
+    can compilegit add .!
+
+ state.mli     | 18 +++++++++++++++---
+ state_test.ml | 18 +++++++++---------
+ 2 files changed, 24 insertions(+), 12 deletions(-)
+
+commit 94d23a4a2ff15097131b32b9a105b46272edbf11
+Merge: 86aa93c 823d72b
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Mon May 14 20:21:30 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 86aa93c29f438d05b798e83fba73f1969ed63555
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Mon May 14 20:20:55 2018 -0400
+
+    first pass smartAI
+
+ player.ml | 47 +++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 45 insertions(+), 2 deletions(-)
+
+commit 823d72b8d868d05041121b8df4c0b9bc002502b6
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 17:11:21 2018 -0400
+
+    cleaned up code
+
+ gui.ml    | 12 +++++++++---
+ main.ml   | 19 -------------------
+ player.ml | 22 ----------------------
+ 3 files changed, 9 insertions(+), 44 deletions(-)
+
+commit ccbc23ceb90adc7effbb3305be6da84a29861a31
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 15:16:16 2018 -0400
+
+    finished display of one game board
+
+ gui.ml | 35 ++++++++++++++++++++++++++++++-----
+ 1 file changed, 30 insertions(+), 5 deletions(-)
+
+commit e74f981fb5bbc3ea5a0dc8c342b46cc329487810
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 14:35:35 2018 -0400
+
+    added stuff from documentation
+
+ gui.ml  | 73 ++++++++++++++++++++++++++++++++++++++++++++++-------------------
+ gui.mli | 16 +++++++++++++++
+ 2 files changed, 68 insertions(+), 21 deletions(-)
+
+commit b6f02f6c004ea37f7e40f7a70fb690ab9119e154
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 14:24:35 2018 -0400
+
+    begin gui
+
+ .DS_Store               | Bin 8196 -> 6148 bytes
+ gui.ml                  |  57 ++++++++++++++++-
+ prototype.zip           | Bin 12250 -> 0 bytes
+ prototype/Makefile      |  19 ------
+ prototype/README.md     |   5 --
+ prototype/ai.mli        |  43 -------------
+ prototype/checkenv.sh   |  49 ---------------
+ prototype/checktypes.ml |   2 -
+ prototype/checktypes.sh |  40 ------------
+ prototype/command.ml    |  45 --------------
+ prototype/command.mli   |  42 -------------
+ prototype/gui.ml        |   1 -
+ prototype/gui.mli       |  12 ----
+ prototype/main.ml       | 114 ----------------------------------
+ prototype/main.mli      |  43 -------------
+ prototype/player.ml     |  21 -------
+ prototype/player.mli    |  10 ---
+ prototype/state.ml      | 161 ------------------------------------------------
+ prototype/state.mli     |  47 --------------
+ prototype/state_test.ml | 141 ------------------------------------------
+ 20 files changed, 56 insertions(+), 796 deletions(-)
+
+commit 894739d438928ebcdb4f2215910a7e9bc6c0fbed
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 05:18:37 2018 -0400
+
+    added some comments to help with design for gui
+
+ gui.ml   | 12 ++++++++++++
+ state.ml |  1 +
+ 2 files changed, 13 insertions(+)
+
+commit 9bb19c5655e84da7adc9dc7da2dc17f24ec557fb
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:43:11 2018 -0400
+
+    tags
+
+ _tags | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c7cdeb3996ef41df4c4e85ed78ae07a5beb56825
+Merge: f630db9 58c5ba2
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 04:41:05 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit f630db94c18d6356a146a6403e17a62a0339db0a
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 04:41:03 2018 -0400
+
+    adjusting
+
+ player.ml | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 58c5ba2709fcbdf3894a4b57615ab5ad6b5bd5d9
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:40:38 2018 -0400
+
+    checking make errors
+
+ engine.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 11852b662b0a924851405de9a0b81f8d46b7ad3e
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:37:17 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+ player.ml | 7 -------
+ 1 file changed, 7 deletions(-)
+
+commit 67be02880fc915c190d764197a7cd15d41e3d993
+Merge: 9a4fcfe a5e0dcf
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:35:47 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit a5e0dcfac450ee969198a1a6824f9a8b7a1f763a
+Merge: c2428c9 a54b0b7
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 04:35:10 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit c2428c9846b032dc6ceef42e05ba837d38dc70fb
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 14 04:34:06 2018 -0400
+
+    finished engine
+
+ engine.ml | 31 +++++++++++++++++--------------
+ player.ml | 18 ++++++++----------
+ state.mli |  2 +-
+ 3 files changed, 26 insertions(+), 25 deletions(-)
+
+commit 9a4fcfe07b0493783f5066e2660aa616788065c7
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:25:17 2018 -0400
+
+    making the start for players
+
+ main.ml | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+commit a54b0b7759be7b54885f5a8a2abe9f34e11280f0
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 04:05:28 2018 -0400
+
+    smart ai documentation
+
+ Makefile  |  5 +----
+ _tags     |  2 +-
+ player.ml | 19 ++++++++++++-------
+ 3 files changed, 14 insertions(+), 12 deletions(-)
+
+commit 81b1282517e88a4890845b5255af0f860c699cbd
+Author: aec273 <aec273@cornell.edu>
+Date:   Mon May 14 03:20:48 2018 -0400
+
+    dumb ai
+
+ .DS_Store | Bin 6148 -> 8196 bytes
+ Makefile  |   5 ++++-
+ _tags     |   2 +-
+ player.ml |  12 +++++++++++-
+ 4 files changed, 16 insertions(+), 3 deletions(-)
+
+commit 6e4467f0a85fdc66c2ececdba73c672dec0df751
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 17:43:53 2018 -0400
+
+    attempt to debug
+
+ engine.ml     | 1 -
+ main.ml       | 3 ++-
+ player.ml     | 9 ++++++---
+ state.ml      | 4 ++--
+ state.mli     | 8 +++++---
+ state_test.ml | 8 ++++----
+ 6 files changed, 19 insertions(+), 14 deletions(-)
+
+commit 5d6e5d3ab7c47bb1ad9a6c23ed5cbc8d8c65f769
+Merge: 456d213 bb43a42
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 16:59:41 2018 -0400
+
+    player's init and make move
+
+commit 456d213b6c37b3a33d0fce3a745ab9ed55a86470
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 01:17:28 2018 -0400
+
+    attempt to fix
+
+ engine.ml | 6 +++---
+ state.ml  | 4 ++--
+ state.mli | 7 ++++---
+ 3 files changed, 9 insertions(+), 8 deletions(-)
+
+commit bb43a42c2186eb14fbecf8bf5a3ebcb99e30318d
+Author: aec273 <aec273@cornell.edu>
+Date:   Sun May 13 01:16:47 2018 -0400
+
+    fixed Place
+
+ _build/_digests            |  55 ---------------------------------------------
+ _build/_log                |   2 --
+ _build/command.cmi         | Bin 792 -> 0 bytes
+ _build/command.mli         |  42 ----------------------------------
+ _build/command.mli.depends |   1 -
+ _build/ocamlc.where        |   1 -
+ _build/state.mli           |  47 --------------------------------------
+ _build/state.mli.depends   |   1 -
+ _tags                      |   1 +
+ checktypes.ml              |   2 --
+ command.ml                 |   2 +-
+ command.mli                |   2 +-
+ player.ml                  |   2 +-
+ state.ml                   |   4 ++--
+ 14 files changed, 6 insertions(+), 156 deletions(-)
+
+commit bfe34173a43b4b553f734ca225ee90af09ff4ad0
+Merge: f291831 859219a
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 00:29:09 2018 -0400
+
+    updated command's place
+
+commit f2918314ea3dff0cfb92fec90d854b9d706924f9
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 00:18:10 2018 -0400
+
+    fix command
+
+ command.ml | 8 ++++----
+ state.ml   | 6 +++---
+ 2 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 859219a904ebe44078017a85f1282b722f07f2b4
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Sun May 13 00:15:49 2018 -0400
+
+    small bugfix
+
+ state.ml | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit b0a4ac00bdcaa495dd705d5b85ef161379a43cc8
+Merge: 6284397 b7f4512
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 00:07:20 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit 628439705c31f29704328c4a5b08dd67acd49a6f
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun May 13 00:07:17 2018 -0400
+
+    state
+
+ state.ml | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit b7f45126daf0ef915a81a5e87fca4b6bb1542ef7
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Sun May 13 00:05:49 2018 -0400
+
+    small bugfix
+
+ state.ml | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 34e110aebc9bd284b6610eba3d86e3ca0dae0680
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Sat May 12 23:47:40 2018 -0400
+
+    small bugfix
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 048f0cecff1f22a0057d6d4785d5e444dbca15dc
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sat May 12 23:29:49 2018 -0400
+
+    function name adjustments
+
+ command.ml |  1 +
+ state.ml   | 13 ++++++++-----
+ 2 files changed, 9 insertions(+), 5 deletions(-)
+
+commit 4b0390cef9950b2db72d7f0575ab96eaa0d567bb
+Author: aec273 <aec273@cornell.edu>
+Date:   Sat May 12 13:11:11 2018 -0400
+
+    working on players
+
+ engine.ml | 14 ++++++++++++++
+ player.ml |  7 +++++--
+ state.ml  |  2 +-
+ 3 files changed, 20 insertions(+), 3 deletions(-)
+
+commit 185b08587f0b5863eb165647fc42c4cc806ab3b4
+Author: aec273 <aec273@cornell.edu>
+Date:   Sat May 12 12:35:51 2018 -0400
+
+    engine
+
+ engine.ml  | 70 ++++++++++++-------------------------------------------------
+ main.ml    |  4 +++-
+ player.ml  | 71 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ player.mli |  3 ++-
+ 4 files changed, 85 insertions(+), 63 deletions(-)
+
+commit b2e2629881011ee342b9d3ec9baa0ffe7e52434a
+Author: aec273 <aec273@cornell.edu>
+Date:   Thu May 10 23:39:22 2018 -0400
+
+    moving stuff to engine
+
+ engine.ml  | 59 +++++++++++++++++++++++++++++++++++++++++++++--
+ main.ml    | 77 --------------------------------------------------------------
+ player.ml  | 21 +++++++++++++++--
+ player.mli |  2 +-
+ 4 files changed, 77 insertions(+), 82 deletions(-)
+
+commit ed3a745744eb10fad45e8c19b68cf4b0ebe76e6d
+Merge: 88c1d58 7761d03
+Author: aec273 <aec273@cornell.edu>
+Date:   Thu May 10 22:04:32 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 88c1d588c991ff26630696bfd41cada3861772b6
+Author: aec273 <aec273@cornell.edu>
+Date:   Thu May 10 22:04:11 2018 -0400
+
+    changing design stuff
+
+ engine.ml  |  7 +++++++
+ gui.mli    |  3 ++-
+ main.ml    |  3 +++
+ player.ml  | 13 +++++--------
+ player.mli |  4 ++--
+ 5 files changed, 19 insertions(+), 11 deletions(-)
+
+commit 7761d030cfa3a8744bb8811564004882e1630053
+Merge: 9115798 4b3de96
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 8 23:39:04 2018 -0400
+
+    push command and some type fixes in state
+
+commit 4b3de962c3555854d68def90f84db728ad81ac2f
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 8 23:13:02 2018 -0400
+
+    added size check to place command
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 8d67781c46c9150ed06770f465d9db45e7204d60
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 8 23:09:05 2018 -0400
+
+    bug fixes
+
+ state.ml | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit b1b061eaff63236876610b2e3f7c343ae2ef8748
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 8 22:54:00 2018 -0400
+
+    infrastructure changes
+
+ state.ml  | 54 +++++++++++++++++++++++++++++++++++++-----------------
+ state.mli |  2 +-
+ 2 files changed, 38 insertions(+), 18 deletions(-)
+
+commit 911579886838882a235ab61066cdf4268653a051
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 7 23:41:14 2018 -0400
+
+    updating test cases for board
+
+ state_test.ml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit d2f1a0764accdc830afe87fd964c24aaa90f1c2b
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 7 23:40:37 2018 -0400
+
+    updating test cases for board
+
+ command.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2a71a9fddd96c2d762555b3c8df14a97cc836773
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 7 23:04:31 2018 -0400
+
+    fixed command.ml
+
+ command.ml | 17 ++++++++++-------
+ 1 file changed, 10 insertions(+), 7 deletions(-)
+
+commit 83da47fc1e47113f4eb26e4ef044d238c1364282
+Author: Nathalia <nl356@cornell.edu>
+Date:   Mon May 7 22:41:19 2018 -0400
+
+    push commit
+
+ command.ml    | 13 ++++++-------
+ state.ml      | 45 ++++++++++++++++++++++++++-------------------
+ state_test.ml |  2 ++
+ 3 files changed, 34 insertions(+), 26 deletions(-)
+
+commit 14d77ea6e2faff2fff104c396f52ee5647bc9065
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Fri May 4 15:10:41 2018 -0400
+
+    type changes
+
+ state.mli | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit f6a2918d49babfe6b8855adc5c3df9192822e368
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Fri May 4 15:10:14 2018 -0400
+
+    name changes
+
+ state.ml | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+commit eef15c076d46bf8d42ab3ef18947690b5d62bcf8
+Merge: 9334487 0d678ed
+Author: Nathalia <nl356@cornell.edu>
+Date:   Fri May 4 01:28:58 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit 9334487f7ec43dd10de37d30375ae47925f7df2c
+Author: Nathalia <nl356@cornell.edu>
+Date:   Fri May 4 01:28:54 2018 -0400
+
+    slight fixes
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f030a3f02a5e18cd9418544217f7cc2be1a4040a
+Author: Nathalia <nl356@cornell.edu>
+Date:   Fri May 4 01:28:30 2018 -0400
+
+    slight fixes
+
+ main.ml  | 2 +-
+ state.ml | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 0d678ed350d8f9f62305a98848f74373002ee64e
+Merge: 9c02da0 3f0dbd5
+Author: aec273 <aec273@cornell.edu>
+Date:   Fri May 4 00:09:18 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 9c02da0f4e745e8c5719ddae96bfdc9dda71b004
+Author: aec273 <aec273@cornell.edu>
+Date:   Fri May 4 00:08:55 2018 -0400
+
+    trying to run make play
+
+ main.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 3f0dbd56e3d9efaa4c922549d5663e09b78fbc76
+Author: Nathalia <nl356@cornell.edu>
+Date:   Fri May 4 00:06:54 2018 -0400
+
+    debugged state and added helpers
+
+ command.ml |  4 ++--
+ main.ml    | 49 ++++++++++++++++++++++---------------------------
+ state.ml   | 18 +++++++++++++++++-
+ 3 files changed, 41 insertions(+), 30 deletions(-)
+
+commit 9817ff1fbeb727b6a0db8b8c45075f287171d698
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu May 3 23:33:29 2018 -0400
+
+    debugged state. commented out place command
+
+ _build/_log | 38 --------------------------------------
+ command.ml  |  6 +++---
+ main.ml     |  4 ++--
+ state.ml    | 26 +++++++++++---------------
+ 4 files changed, 16 insertions(+), 58 deletions(-)
+
+commit f8a4f6909e62715c52ece0197d7e64a7b0f072ca
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu May 3 23:22:12 2018 -0400
+
+    fixed mli files
+
+ state.ml  | 13 ++++++-------
+ state.mli | 40 +++++++++++++++++++++-------------------
+ 2 files changed, 27 insertions(+), 26 deletions(-)
+
+commit 5ded5a13c99af71fb8f4e14ef44bb305f16789ac
+Merge: 890c73d 6597021
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu May 3 23:06:00 2018 -0400
+
+    improved code readibility
+
+commit 890c73d54f10a9834fda7a6d04c5c1bddbfaaeda
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu May 3 23:03:36 2018 -0400
+
+    improve code readibility
+
+ _build/_digests         |  20 ++++----
+ _build/_log             |   8 +--
+ _build/ocamlc.where     |   2 +-
+ main.mli                |   4 +-
+ prototype.zip           | Bin 12002 -> 12250 bytes
+ prototype/command.ml    |   2 +-
+ prototype/main.ml       |  28 +++++++++--
+ prototype/state.ml      |  16 ++++--
+ prototype/state_test.ml |   6 +--
+ state.ml                | 127 +++++++++++++++++++++++-------------------------
+ state.mli               |  17 ++++---
+ 11 files changed, 130 insertions(+), 100 deletions(-)
+
+commit 6597021ded90b72cf67dd9f3f5243bbd0fa59144
+Author: aec273 <aec273@cornell.edu>
+Date:   Thu May 3 20:54:23 2018 -0400
+
+    debug
+
+ Makefile        |  2 +-
+ _build/_digests | 20 +++++++++++---------
+ _build/_log     | 15 +++++++++++----
+ main.ml         |  4 ++--
+ 4 files changed, 25 insertions(+), 16 deletions(-)
+
+commit 684360b07d5e85acb8849583d0c2ff50c6020643
+Author: aec273 <aec273@cornell.edu>
+Date:   Wed May 2 00:05:30 2018 -0400
+
+    prototype
+
+ battleship.zip | Bin 3134 -> 9306 bytes
+ state.ml       |   8 ++++----
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit d27c7b5ae1bc9076275576c576d2ed0329fcd5ff
+Merge: 4ac8a60 8b04830
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:58:31 2018 -0400
+
+    merge stuffs
+
+commit 8b048305b39584dd798954d382a46a3a2961780a
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:57:25 2018 -0400
+
+    small fix
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 35fd98711faf724c651a74734bb431447ce9f413
+Merge: aefea89 4ac8a60
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 23:56:01 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit aefea89f277e1d4db30a794e4af0ab0b90011893
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 23:55:54 2018 -0400
+
+    fixed some function calls in state test
+
+ state.ml      | 2 +-
+ state_test.ml | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 4ac8a60059a82e9a820ee0d808b462395905662c
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:55:47 2018 -0400
+
+    fixed init
+
+ _build/_digests | 14 +++++++-------
+ _build/_log     |  8 ++++----
+ main.ml         |  2 +-
+ 3 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 97ba6ad0ff3da642db6d9804a441e0344880a1cc
+Merge: 7ab6efe ff732c7
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:53:12 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 7ab6efeb5177c2cfb301881dafabb9b87ce89d5a
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:52:56 2018 -0400
+
+    main init: added for placing ships
+
+ _build/_digests | 12 ++++++------
+ main.ml         | 28 ++++++++++++++++++++++++----
+ 2 files changed, 30 insertions(+), 10 deletions(-)
+
+commit ff732c7420405f3102eba06fd46a1e176cebfa8d
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:51:01 2018 -0400
+
+    Place command changes
+
+ command.ml |  2 +-
+ state.ml   | 14 ++++++++++++--
+ 2 files changed, 13 insertions(+), 3 deletions(-)
+
+commit be1c5be72c08840011bfde4927726ab8464fa8e6
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 23:42:25 2018 -0400
+
+    made zip file for submission
+
+ prototype.zip           | Bin 0 -> 12002 bytes
+ prototype/Makefile      |  19 ++++++
+ prototype/README.md     |   5 ++
+ prototype/ai.mli        |  43 ++++++++++++++
+ prototype/checkenv.sh   |  49 ++++++++++++++++
+ prototype/checktypes.ml |   2 +
+ prototype/checktypes.sh |  40 +++++++++++++
+ prototype/command.ml    |  45 +++++++++++++++
+ prototype/command.mli   |  42 ++++++++++++++
+ prototype/gui.ml        |   1 +
+ prototype/gui.mli       |  12 ++++
+ prototype/main.ml       |  94 ++++++++++++++++++++++++++++++
+ prototype/main.mli      |  43 ++++++++++++++
+ prototype/player.ml     |  21 +++++++
+ prototype/player.mli    |  10 ++++
+ prototype/state.ml      | 151 ++++++++++++++++++++++++++++++++++++++++++++++++
+ prototype/state.mli     |  47 +++++++++++++++
+ prototype/state_test.ml | 141 ++++++++++++++++++++++++++++++++++++++++++++
+ 18 files changed, 765 insertions(+)
+
+commit 8816237d0caf5cb155fa9bbed337a9a6930071c2
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:33:26 2018 -0400
+
+    main init debugging
+
+ _build/_digests  | 16 ++++++++--------
+ _build/_log      |  9 ++++-----
+ _build/state.mli |  3 +++
+ main.ml          |  2 +-
+ state.mli        |  3 +++
+ 5 files changed, 19 insertions(+), 14 deletions(-)
+
+commit 03c417b1e98180e74facf88a7009bbf49fbe6a3d
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:20:53 2018 -0400
+
+    matched variable names
+
+ state.ml | 34 +++++++++++++++++-----------------
+ 1 file changed, 17 insertions(+), 17 deletions(-)
+
+commit c548b50e974151c224fe5f009f386780a73fd9d5
+Merge: b5e6c76 8b73070
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:19:46 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit b5e6c76c7a5a4c5bfaf6883323ce1ddf55829397
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:18:48 2018 -0400
+
+    changed init_state
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 8b730709daae50564cd0d814c114b087ba851868
+Merge: d817ca6 fa59a7c
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:15:46 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit d817ca66571addc0dac680fb9c5daa83af3922e7
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 23:15:22 2018 -0400
+
+    debugging main
+
+ _build/_digests | 14 +++++++-------
+ _build/_log     |  6 ++++--
+ main.ml         | 49 ++++++++++++++++++++++++-------------------------
+ 3 files changed, 35 insertions(+), 34 deletions(-)
+
+commit fa59a7cf8084c0db6ff010c194b1c02387788769
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:10:41 2018 -0400
+
+    added fields to Place command
+
+ command.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit dccddd0c1198125a5be990c654e013c1b331fb42
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 23:10:12 2018 -0400
+
+    helper functions added
+
+ state.ml | 22 ++++++++++++++++++++--
+ 1 file changed, 20 insertions(+), 2 deletions(-)
+
+commit 964437bda01be321b7c8fc9a514c4be326b550bf
+Merge: b892e30 5f23d6c
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:52:01 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 5f23d6c3e9b378ebdd4529e1e7a803854b1f7d9f
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:51:21 2018 -0400
+
+    debug
+
+ state.ml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit b892e309f8f51dc72bb27a1bffb9fcfc405cc2be
+Merge: 30763f2 af26449
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:47:54 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit af264499b53713cc6a110318a4c83bf397fa0408
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:46:46 2018 -0400
+
+    debug
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 30763f2da0dd18cb04d696e33b835cedce6d59b5
+Merge: 8952a10 ffad6c9
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:45:43 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 8952a102b809c0c23d57ac7ea765ddc2267ea64a
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:45:13 2018 -0400
+
+    debugging
+
+ _build/_digests |  4 ++--
+ _build/_log     | 23 ++++++++++++-----------
+ state.ml        | 38 +++++++++++++++++++-------------------
+ 3 files changed, 33 insertions(+), 32 deletions(-)
+
+commit ffad6c997776626309259e3cff51374b11590607
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:44:40 2018 -0400
+
+    debugging
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 032aea1ec192f205024f9dbde7e3294bf5959f0f
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:43:04 2018 -0400
+
+    small changes
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 33ec7ef75216f258d6fe5e9be961fc96996b23d8
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:42:28 2018 -0400
+
+    small cha
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 01c0db113a65168a9e8b15aa3cb899dff88051fb
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:39:33 2018 -0400
+
+    state changes
+
+ state.ml | 68 +++++++++++++++++++++-------------------------------------------
+ 1 file changed, 22 insertions(+), 46 deletions(-)
+
+commit fe8c62168719d6ae9cbf78b84443ff7ec1c44af8
+Merge: 3d3bcaa 2d5671d
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:33:25 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 3d3bcaa08ca7022901948b7b37971fab161c1abe
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:32:25 2018 -0400
+
+    state changes
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2d5671da15d63e7b5f8077fa4453dcdd168135f3
+Merge: cf0892d d0ee1c1
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:26:28 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit cf0892d68523d0b30e0a1f6b4f4297deaa1c0ca4
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 22:26:07 2018 -0400
+
+    rearranged type declarations
+
+ state.ml | 49 +++++++++++++++++++++++++------------------------
+ 1 file changed, 25 insertions(+), 24 deletions(-)
+
+commit d0ee1c13d39cf99a83197d70fb1dc83789026f24
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 22:03:09 2018 -0400
+
+    random board
+
+ state.ml | 48 +++++++++++++++++++++++++++---------------------
+ 1 file changed, 27 insertions(+), 21 deletions(-)
+
+commit cc1018ba19e2daee9d3cb439fe6fd759eb36b7b7
+Merge: 8fa185b 923f977
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 19:27:03 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 8fa185b8bd0284cc525fd5dae253132aa0c350c1
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 19:25:10 2018 -0400
+
+    changed structure of state
+
+ state.ml | 77 +++++++++++++++++++++++++++++++++++++++++++---------------------
+ 1 file changed, 52 insertions(+), 25 deletions(-)
+
+commit 923f977346a0a79d8e3dab47ee3e8c2bcf199f8f
+Author: aec273 <aec273@cornell.edu>
+Date:   Tue May 1 05:04:47 2018 -0400
+
+    checking git
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7f8c7e255e0c89755bf2fa298a701b0a9be711fc
+Merge: 96bfdee 2e35a13
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 04:53:55 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 96bfdee72971ec05d22781f58edbfe896511ba74
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 04:52:54 2018 -0400
+
+    basic main: still need to add to the initialization
+
+ _build/_digests     |  20 +++++------
+ _build/_log         |  24 +++++++++----
+ _build/command.cmi  | Bin 567 -> 792 bytes
+ _build/command.mli  |   3 ++
+ _build/ocamlc.where |   2 +-
+ _build/state.mli    |   8 ++---
+ command.ml          |  24 +++++++++++--
+ command.mli         |   3 ++
+ main.ml             |  95 +++++++++++++++++++++++++++++++++++++---------------
+ state.ml            |  14 ++++----
+ 10 files changed, 135 insertions(+), 58 deletions(-)
+
+commit 2e35a13fd2949814fb304675142e15ab7818770c
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:43:46 2018 -0400
+
+    finishing touches on test suite and helper functions
+
+ state.ml      | 28 ++++++++++++++--------------
+ state_test.ml | 16 ++++++++++++----
+ 2 files changed, 26 insertions(+), 18 deletions(-)
+
+commit 87f69424a9c6731b84fa6f119c97c8b448704f04
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:34:03 2018 -0400
+
+    test cases for attacking ships
+
+ state_test.ml | 26 ++++++++++++++++++--------
+ 1 file changed, 18 insertions(+), 8 deletions(-)
+
+commit d477eb7bb1eed82a173389037b1c96da187a8766
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:25:18 2018 -0400
+
+    added helper functions for attack
+
+ state.ml      | 16 ++++++++++++++--
+ state_test.ml | 48 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 62 insertions(+), 2 deletions(-)
+
+commit 57ba984786f5147e6059b32228209870fb993e66
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:17:55 2018 -0400
+
+    test cases for placing ships
+
+ state_test.ml | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit d4cc7970d8b2bae9880d4fccf2ccd5f3610a5805
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:15:50 2018 -0400
+
+    added helper functions for place
+
+ state.ml      | 27 +++++++++++++++++++++------
+ state_test.ml |  6 ++++--
+ 2 files changed, 25 insertions(+), 8 deletions(-)
+
+commit 4af1595f36681778d6d36357c3aee42a35bf57a4
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 04:00:26 2018 -0400
+
+    reformatted and added helpers to state.ml
+
+ state.ml | 46 +++++++++++++++++++++++++++++++---------------
+ 1 file changed, 31 insertions(+), 15 deletions(-)
+
+commit b483a267906cc84da8ed97698bbc3a58ff73a9d5
+Merge: 11ce34d b46e969
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 03:47:53 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit 11ce34d9ad13f91d0b007dc1f7431ad7de215ccc
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 03:47:04 2018 -0400
+
+    declared helper values for tests
+
+ state.ml      | 80 ++++++++++++++++++++++++++++++++---------------------------
+ state_test.ml | 59 ++++++++++++++++++++++++++++++++++++++++---
+ 2 files changed, 98 insertions(+), 41 deletions(-)
+
+commit b46e969aaa32de0c79c650c5cd9c9ec6c3ddf440
+Merge: 85b4752 a5d4b97
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 03:13:01 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 85b475248963b94190ef6f1133e5907f7722b848
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 03:12:40 2018 -0400
+
+    begin prints
+
+ main.ml | 47 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 46 insertions(+), 1 deletion(-)
+
+commit a5d4b9733167340cd6fd04a86de8f75cbcb4984f
+Merge: 657816d 4f261eb
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 03:06:33 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit 657816d4775fcfe07e5dec96af9dc1f98be5b7c8
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 03:06:31 2018 -0400
+
+    start of test suite
+
+ state_test.ml | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+
+commit 4f261eb73fd87f82e00fed954fd9c23fb3a50f48
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 02:55:35 2018 -0400
+
+    o
+
+ state.ml | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit acf0ff1717387828ad9137f4d706e31df14de39c
+Merge: a82cacd cbee75b
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 02:51:57 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit a82cacdb0ef23c879f32564d3045c003fa997765
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 02:48:58 2018 -0400
+
+    o
+
+ state.mli | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit a47a542457b84241f9f2ef2cfef5356f8bfe76a2
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Tue May 1 02:48:42 2018 -0400
+
+    g
+
+ state.ml | 15 +++++++++++----
+ 1 file changed, 11 insertions(+), 4 deletions(-)
+
+commit cbee75b81d10cffdb4766af24c5b956c59574b7d
+Merge: 7be651a 7319685
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 02:22:42 2018 -0400
+
+    fix pull
+
+commit 731968591a19f2eb2d9f022927ce207dcb856ecb
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 02:19:01 2018 -0400
+
+    fixing merge errors
+
+ state.ml | 15 +++++----------
+ 1 file changed, 5 insertions(+), 10 deletions(-)
+
+commit e0de0baf31230289246d55958551464d952161bc
+Merge: b941577 19d22d3
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 02:16:21 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 7be651aa7c57110d8b801416672316920534cf8a
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 02:16:04 2018 -0400
+
+    adjusting push error
+
+ player.mli | 11 ++++++++
+ state.ml   | 94 ++++++++------------------------------------------------------
+ 2 files changed, 22 insertions(+), 83 deletions(-)
+
+commit b941577fde7deb4fbb16a4722f8216133ada8629
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 02:15:23 2018 -0400
+
+    player module instatiated
+
+ player.ml  | 37 ++++++++++++++++---------------------
+ player.mli | 30 +-----------------------------
+ 2 files changed, 17 insertions(+), 50 deletions(-)
+
+commit 19d22d3500050971dc2e1b126071aacc63398ee3
+Merge: b54cb3b 47b5a2d
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 01:54:48 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit b54cb3b313db2ba7704871169d994eac5ac10429
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue May 1 01:54:05 2018 -0400
+
+    official types
+
+ _build/_digests     | 19 +++++++++++++------
+ _build/ocamlc.where |  2 +-
+ state.ml            | 33 +++++++++++++--------------------
+ 3 files changed, 27 insertions(+), 27 deletions(-)
+
+commit 47b5a2dd91893a6330ec914f530ca05780e5834b
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Tue May 1 00:49:59 2018 -0400
+
+    changed player to a module
+
+ player.mli | 11 +++++++++++
+ state.ml   | 32 ++++++++++++++++++--------------
+ 2 files changed, 29 insertions(+), 14 deletions(-)
+
+commit 5b4257f9e76fbc7d2af827508244d3f888001d6d
+Author: Logan Lam <lsl85@cornell.edu>
+Date:   Mon Apr 30 21:55:33 2018 -0400
+
+    updated state
+
+ state.ml | 90 +++++++++++++++++++++++++++++++++++++++++++++-------------------
+ 1 file changed, 63 insertions(+), 27 deletions(-)
+
+commit f00fa7d431d78e84d353054560dfb949729b672d
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Mon Apr 30 06:56:36 2018 -0400
+
+    a little bit of a lot of things
+
+ _build/_digests  | 12 ++++++------
+ _build/_log      |  6 +++---
+ _build/state.mli |  1 +
+ gui.ml           |  1 +
+ gui.mli          | 12 ++++++++++++
+ player.ml        | 20 +++++++++++++++++++-
+ player.mli       | 11 +++--------
+ state.ml         |  1 +
+ state.mli        |  1 +
+ 9 files changed, 47 insertions(+), 18 deletions(-)
+
+commit 154f253ef8f9a60ebb1a58bfb1effcb6075da9c5
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Mon Apr 30 06:12:51 2018 -0400
+
+    added stuff for make check to work
+
+ _build/_digests  | 22 ++++++++++++++++++++--
+ _build/_log      | 20 +++++++-------------
+ _build/state.mli |  4 +++-
+ checktypes.ml    |  2 ++
+ main.ml          |  9 +++++++++
+ main.mli         |  3 +++
+ state.ml         |  7 ++++---
+ state.mli        |  4 +++-
+ state_test.ml    |  0
+ 9 files changed, 51 insertions(+), 20 deletions(-)
+
+commit eeb5bc4815f7b58982fc6be66a01c8ee58f62500
+Merge: a0edc08 7d1181f
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Mon Apr 30 05:40:56 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit a0edc08da7d5797f108ae6b7396e53b751d8464d
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Mon Apr 30 05:40:26 2018 -0400
+
+    stuck on player
+
+ .DS_Store                  | Bin 6148 -> 6148 bytes
+ .merlin                    |   6 ++++++
+ _build/_digests            |   5 +++++
+ _build/_log                |  26 +++++++++++-------------
+ _build/command.cmi         | Bin 0 -> 567 bytes
+ _build/command.mli         |  39 ++++++++++++++++++++++++++++++++++++
+ _build/command.mli.depends |   1 +
+ _build/ocamlc.where        |   1 +
+ _build/state.mli           |  41 +++++++++++++++++++++++++++++++++++++
+ _build/state.mli.depends   |   1 +
+ checkenv.sh                |  49 +++++++++++++++++++++++++++++++++++++++++++++
+ checktypes.sh              |  40 ++++++++++++++++++++++++++++++++++++
+ player.ml                  |   7 +++++++
+ player.mli                 |  36 +++++++++++++++++++--------------
+ state.ml                   |   6 ++++++
+ 15 files changed, 229 insertions(+), 29 deletions(-)
+
+commit 7d1181f1331bbf8d7c8467cbce245f86ecd8373e
+Author: April Chen <aec273@cornell.edu>
+Date:   Mon Apr 30 05:38:40 2018 -0400
+
+    Create .gitignore
+
+ .gitignore | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit e8bc87bf191ccf6072859388b995b11a10ec639b
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Mon Apr 30 04:07:40 2018 -0400
+
+    adding player functions
+
+ player.ml  |  1 +
+ player.mli | 19 ++++++++++++++++++-
+ state.ml   |  2 +-
+ 3 files changed, 20 insertions(+), 2 deletions(-)
+
+commit fccedf1ccb354e59d54f187dff53099a406bf784
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun Apr 29 01:58:40 2018 -0400
+
+    first draft of command.ml
+
+ command.ml | 24 +++++++++++++++++++++++-
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+
+commit ee4d4dfa5a550efc9777bfdd11121b2924f001d8
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun Apr 29 01:36:37 2018 -0400
+
+    clarified some board and ship types
+
+ state.ml | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+commit 172689872374bfebcca73c43b88b874dd0dc9345
+Merge: 45557df dd70b11
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun Apr 29 01:34:03 2018 -0400
+
+    Merge branch 'master' of github.coecis.cornell.edu:aec273/Battleship
+
+commit 45557dfe7982bc2740a53998255f5d5fad588c2f
+Author: Nathalia <nl356@cornell.edu>
+Date:   Sun Apr 29 01:32:31 2018 -0400
+
+    clarified some ship and board types
+
+ .Makefile.swp | Bin 0 -> 12288 bytes
+ command.ml    |   3 +++
+ command.mli   |   4 ++--
+ state.ml      |  47 ++++++++++++++++++++++++++++++++++++++++++-----
+ 4 files changed, 47 insertions(+), 7 deletions(-)
+
+commit dd70b115601e0a777e83ccba9645f000845dcfb4
+Author: April Chen <april@dhcp-rhodes-1917.eduroam.cornell.edu>
+Date:   Fri Apr 13 16:48:19 2018 -0400
+
+    beginnings of player
+
+ .DS_Store  | Bin 6148 -> 6148 bytes
+ player.mli |   9 +++++++++
+ state.ml   |   7 +++++++
+ 3 files changed, 16 insertions(+)
+
+commit 15cb91684b70137c84b3c14c555e25384cdf8248
+Author: Nathalia <nl356@cornell.edu>
+Date:   Fri Apr 13 16:42:54 2018 -0400
+
+    new state.ml
+
+ _build/_digests |  0
+ _build/_log     | 16 ++++++++++++++++
+ state.ml        | 34 ++++++++++++++++++++++++++++++++++
+ state.mli       | 47 +++++++++++++----------------------------------
+ 4 files changed, 63 insertions(+), 34 deletions(-)
+
+commit 6179961a6a0f7e3cc077f82145eb94a6889891a1
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 23:53:02 2018 -0400
+
+    zip file
+
+ battleship.zip | Bin 0 -> 3134 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit d32eb365ac5805154cfb1773d636b5436903e5db
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Thu Mar 29 23:51:03 2018 -0400
+
+    update
+
+ ai.mli | 24 ++++++++++++++----------
+ 1 file changed, 14 insertions(+), 10 deletions(-)
+
+commit 921d88f50b64a228722ece2582faf2c4dd083b73
+Merge: d17709f 5fe3427
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 23:41:05 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit d17709ff4a0b2771e8a03670aab63117275e95f7
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 23:40:54 2018 -0400
+
+    state.mli part 3
+
+ state.mli | 16 +++++++++-------
+ 1 file changed, 9 insertions(+), 7 deletions(-)
+
+commit 5fe3427fad4cc2c65e1cc6c8301315d548964a09
+Merge: 2c212af 5bdde58
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Thu Mar 29 23:36:02 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 2c212af72c2d21bb4fac5bc5561fe6fe8923bbe0
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Thu Mar 29 23:35:35 2018 -0400
+
+    ai
+
+ ai.mli | 17 +++++++++++++----
+ 1 file changed, 13 insertions(+), 4 deletions(-)
+
+commit 5bdde58922b5a3154b930ee299e928fe0e38e9a2
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 23:24:15 2018 -0400
+
+    state.mli fix
+
+ state.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f6ab98267b17a7faee8e0e9749083586382be02f
+Merge: 2b1b459 2eb4d69
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 23:22:59 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 2b1b4592468194fd3816d98dffba347cb5ca9028
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 23:22:40 2018 -0400
+
+    state.mli 2
+
+ state.mli | 41 ++++++++++++++++++++++++++++++++---------
+ 1 file changed, 32 insertions(+), 9 deletions(-)
+
+commit 2eb4d695019a9edc16f7e52bddeef182ae63bde1
+Merge: 6bd6a14 1b2d5a7
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Thu Mar 29 23:22:29 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit 6bd6a14f2f4daa92fcb367b97ece2b1f37bc922c
+Author: April Chen <april@dhcp-mcfad-7112.eduroam.cornell.edu>
+Date:   Thu Mar 29 23:21:54 2018 -0400
+
+    beginning ai
+
+ .DS_Store | Bin 6148 -> 6148 bytes
+ ai.mli    |  32 +++++++++++++++++++++++++++++---
+ 2 files changed, 29 insertions(+), 3 deletions(-)
+
+commit 1b2d5a799425ae57d996f5ce486769a15e9bcc65
+Merge: c5e63da 36a750e
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 22:34:38 2018 -0400
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/aec273/Battleship
+
+commit c5e63dad22ccc42e3ca593ddfa8158df328164da
+Author: dl594 <dl594@cornell.edu>
+Date:   Thu Mar 29 22:34:10 2018 -0400
+
+    state.mli
+
+ state.mli | 29 +++++++++++++++++++++++++++--
+ 1 file changed, 27 insertions(+), 2 deletions(-)
+
+commit 36a750e0b80a213c67457547f610acacd4ca2f4c
+Author: April Chen <april@dhcp-ccc-6563.eduroam.cornell.edu>
+Date:   Thu Mar 29 22:03:52 2018 -0400
+
+    Makefile
+
+ .DS_Store | Bin 0 -> 6148 bytes
+ Makefile  |  19 +++++++++++++++++++
+ 2 files changed, 19 insertions(+)
+
+commit 2f8762a9bcfd92b4ae5f5a09b84f914bc05cde07
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 21:38:06 2018 -0400
+
+    finished main.mli
+
+ main.mli | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 7ef6b484bc263731636cb3bd32e7305306fbc399
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 21:28:12 2018 -0400
+
+    finished main.ml
+
+ main.mli | 34 ++++++++++++++++++++++++++++++----
+ 1 file changed, 30 insertions(+), 4 deletions(-)
+
+commit 1e270d3a915049818d88599ca4213e4128b7ba9c
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 21:12:29 2018 -0400
+
+    updated description in readme
+
+ README.md |  5 ++++-
+ main.mli  | 10 ++++++++++
+ 2 files changed, 14 insertions(+), 1 deletion(-)
+
+commit 32299195fd7481c37baad53b2c32ece723720ab9
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 21:02:58 2018 -0400
+
+    instantiated mli files
+
+ ai.mli | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 090a1cfc79862cc472284d3cc5ba036a072f7721
+Author: Nathalia <nl356@cornell.edu>
+Date:   Thu Mar 29 20:59:38 2018 -0400
+
+    finished command.mli
+
+ command.mli | 38 ++++++++++++++++++++++++++++++++++++--
+ main.mli    |  2 +-
+ 2 files changed, 37 insertions(+), 3 deletions(-)
+
+commit 4a82b778326f0a53828052a670630d7e03c33ed8
+Author: Nathalia <nl356@cornell.edu>
+Date:   Tue Mar 27 20:27:11 2018 -0400
+
+    instantiated mli files
+
+ command.mli |  5 +++++
+ main.mli    |  3 +++
+ state.mli   | 12 ++++++++++++
+ 3 files changed, 20 insertions(+)
+
+commit 28ad37269237575c3bbb55cfe7649c57b465f84a
+Author: April Chen <aec273@cornell.edu>
+Date:   Tue Mar 27 19:32:15 2018 -0400
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)

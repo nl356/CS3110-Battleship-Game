@@ -1,0 +1,1 @@
+true: debug, package(unix), package(oUnit), package(str), package(qcheck), package(ANSITerminal)
